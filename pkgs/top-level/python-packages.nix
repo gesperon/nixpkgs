@@ -8084,6 +8084,10 @@ self: super: with self; {
     callPackage ../development/python-modules/keeper-secrets-manager-core
       { };
 
+  keeper-secrets-manager-helper =
+    callPackage ../development/python-modules/keeper-secrets-manager-helper
+      { };
+
   keepkey = callPackage ../development/python-modules/keepkey { };
 
   keepkey-agent = callPackage ../development/python-modules/keepkey-agent { };
